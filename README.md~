@@ -1,0 +1,18 @@
+What is this
+------------
+
+Used to do a quick intro into using chef-solo within a docker container.
+
+How do I use this?
+------------------
+
+    $ docker build -t chef-solo .
+    $ docker run -it chef-solo bash
+
+    # chef-solor -c /chef/solo.rb
+
+How do I make simple changes while learning chef ?
+--------------------------------------------------
+
+You can just edit the `/chef/cookbooks/helloworld/recipes/default.rb` file 
+for now, while inside the docker container.
